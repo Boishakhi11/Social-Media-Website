@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/e7b0bc9be5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Life+Savers:wght@400;700;800&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="heading">
+        <div class="rightside">
+    <i class="material-icons">eco</i>
+    <h1 class="channelname"> <span class="uppercase"> Explore</span> with <br> us <span class="uppercase">Norway</span></h1>
+        </div>
+        <div class="leftside">
+    <ul class = "hometag">
+        <li class="menus"> <a href="./index.html" target="_blank"> Home</a></li>
+        <li class="menus"> <a href="./whoweare.html" target="_blank">Who We are<a><li>
+        <li class="menus"> <a href="./why us.html" target="_blank">Why Us </a></li>
+        <li class="menus"> <a href="./contactus.html" target="_blank">Contact Us </a></li>
+    </ul>
+       </div>
+      </nav>
+      </div>
+
+   </header>
+
+  
+    <div  id="contact">
+        <div class="form-container">
+            <h2>We'd love to <br> hear from you</h2>
+            <p>Feel free to talk to us if you have any question. Just fill the form and we will reach you shortly</p>
+                 <form id="loginform" onsubmit="sendEmail(); reset(); return false">
+                    <input type="text" id="username" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Email Adress">
+                    <textarea rows="4" id="message" placeholder="Message" required></textarea>
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+         </div>        
+    </div>
+
+
+    <footer>
+        <div class="name">Explore With Us Norway</div>
+        <div class="last-para">
+            <p>If you have any interest to know about study program in Norway or how life is in Norway feel free to ask us. We will be more than happy to help and guide you without any cost. </p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/rajibmuktaa" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://www.youtube.com/@rajibmukta" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+        </div>
+        <div class="copyright" >Copyright @2024 by Explore with us Norway</div>
+    
+    
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
